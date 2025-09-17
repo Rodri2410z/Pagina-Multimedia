@@ -1,0 +1,71 @@
+body{
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+background-image: url("https://www.amazhk.com/image/cache/Unbox/DSC09989-500x500.jpg");
+background-size: cover;     
+background-repeat: no-repeat;
+background-position: center;  
+margin: 0;                    
+height: 100vh; 
+}
+.content{
+padding: 3vw;
+background-color: rgba(233, 233, 233, 0.418);
+border-radius: 2vw;
+box-shadow: 0 0 5vw rgba(0, 0, 0, 0.5);
+text-align: center;
+max-width: 600px;
+width: 90vw;
+}
+audio{
+width: 100%;
+margin-top: 2vh;
+}
+
+#fileInput{
+width: 100%;
+margin-top: 2vh;
+display: block;
+}
+
+.controls button{
+background-color: rgb(66, 66, 66);
+color: white;
+border: none;
+padding: 1.5vw 3vw;
+font-size: 2vw;
+cursor: pointer;
+margin: 0 1vw;
+border-radius: 0.5vw;
+}
+
+.controls button:hover{
+    background-color: rgb(109, 108, 108);
+    color: rgb(255, 255, 255);
+}
+
+#playlist{
+list-style: none;
+padding: 0;
+margin-top: 2vh;
+max-height: 30vh;
+overflow-y: auto;
+text-align: left;
+}
+
+#playlist li{
+background-color: rgb(162, 209, 255);
+padding: 1vh 2vw;
+margin-bottom: 1vh;
+border-radius: 0.5vh;
+cursor: pointer;
+color: gray;
+}
+
+#playlist li.active{
+    background-color: gray;
+    color: rgb(162, 209, 255);
+}
